@@ -1,13 +1,13 @@
 Package: bazar
 Type: Package
 Title: Miscellaneous Basic Functions
-Version: 0.1.4
-Date: 2017-01-10
+Version: 0.1.6
+Date: 2017-06-19
 Authors@R: person("Paul", "Poncet", , "paulponcet@yahoo.fr", role = c("aut", "cre"))
 Description: A collection of miscellaneous functions for 
     copying objects to the clipboard ('Copy');
     manipulating strings ('concat', 'mgsub', 'trim', 'verlan'); 
-    loading or showing packages ('library_with_rep', 'require_with_rep', 
+    loading or showing packages ('library_with_dep', 'require_with_dep', 
     'sessionPackages'); 
     creating or testing for named lists ('nlist', 'as.nlist', 'is.nlist'), 
     formulas ('is.formula'), empty objects ('as.empty', 'is.empty'), 
@@ -23,10 +23,10 @@ Imports: kimisc, tools, utils
 Suggests: knitr, testthat
 URL: https://github.com/paulponcet/bazar
 BugReports: https://github.com/paulponcet/bazar/issues
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-01-14 12:11:46 UTC; YL1101
+Packaged: 2017-06-19 20:58:56 UTC; YL1101
 Author: Paul Poncet [aut, cre]
 Maintainer: Paul Poncet <paulponcet@yahoo.fr>
 Repository: CRAN
-Date/Publication: 2017-01-14 14:14:28
+Date/Publication: 2017-06-25 07:22:18 UTC

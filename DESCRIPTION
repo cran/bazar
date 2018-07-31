@@ -1,8 +1,8 @@
 Package: bazar
 Type: Package
 Title: Miscellaneous Basic Functions
-Version: 1.0.6
-Date: 2017-11-14
+Version: 1.0.9
+Date: 2018-07-31
 Authors@R: person("Paul", "Poncet", , "paulponcet@yahoo.fr", role = c("aut", "cre"))
 Description: A collection of miscellaneous functions for 
     copying objects to the clipboard ('Copy');
@@ -19,18 +19,18 @@ Description: A collection of miscellaneous functions for
     converting into a function ('as.fun'); 
     providing a C like ternary operator ('condition %?% true %:% false'); 
     finding packages and functions ('get_all_pkgs', 'get_all_funs');
-    and others ('erase', '%nin%', 'unwhich', 'top', 'bot', 'normlize'). 
+    and others ('erase', '%nin%', 'unwhich', 'top', 'bot', 'normalize'). 
 License: GPL-3
 LazyData: TRUE
 Depends: R (>= 3.1.3)
-Imports: kimisc, tools, utils
+Imports: kimisc, stats, tools, utils
 Suggests: knitr, testthat
 URL: https://github.com/paulponcet/bazar
 BugReports: https://github.com/paulponcet/bazar/issues
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-11-14 13:26:42 UTC; YL1101
+Packaged: 2018-07-31 21:20:47 UTC; YL1101
 Author: Paul Poncet [aut, cre]
 Maintainer: Paul Poncet <paulponcet@yahoo.fr>
 Repository: CRAN
-Date/Publication: 2017-11-14 15:08:07 UTC
+Date/Publication: 2018-07-31 21:40:07 UTC

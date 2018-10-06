@@ -1,12 +1,13 @@
-c01c1921c3c4e159e82cea103fc99fb0 *DESCRIPTION
-3d04d3f94f40bf76d0d64828b67fb560 *NAMESPACE
-a41a1e1a773ca0723b79aa98d4bd3cb9 *NEWS.md
+909876344faecb501f6edb3ffdddf629 *DESCRIPTION
+fdf7e97860fe3625ca1b06ac63f5514d *NAMESPACE
+f345c6f139d17cb7742f019bce4b71cd *NEWS.md
 0422d323837a1dbd985998f2a31f2b5e *R/Copy.R
 481c010f71159e5cca7ba7f50e64d322 *R/almost.equal.R
 deb622f12af1ecef9e07cf0c9896d54e *R/almost.unique.R
 4d5d7eabccca00d08859a78851654ed6 *R/almost.zero.R
 68228b6f616fed4cc30f556282b5aa06 *R/as.empty.R
 53cef3e61d3143d32eeaaca2e742f0af *R/as.fun.R
+650cdd2139617547c0da91bfcd35a0c1 *R/as.na.R
 544924095974daa986384f6b45bf92c0 *R/bazar-package.R
 9f145968260958fc8a68046de0a3044d *R/concat.R
 6c66d869269ce6548ca18e40d449cbf0 *R/erase.R
@@ -41,6 +42,7 @@ fc9a690fdac751c5a9bfa8a544ae8047 *man/almost.unique.Rd
 6d71b639545b97fd7b47749998374738 *man/almost.zero.Rd
 08c413f0e6fba1f62ec1b9b8643b585c *man/as.empty.Rd
 91cd136a8907d38584d29fca09d997be *man/as.fun.Rd
+381fe73148767f8a30ba840d4371a9e2 *man/as.na.Rd
 1d21e12406820b20b3df9ca9fb62a986 *man/bazar.Rd
 7f2cded34f1ffd9211b4a3b647c83e70 *man/concat.Rd
 7be26d85b78ecad2bb30c379b5c894f1 *man/erase.Rd

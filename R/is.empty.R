@@ -18,6 +18,7 @@
 #' @examples 
 #' is.empty(4)
 #' is.empty(c())
+#' is.empty(new.env())
 #' is.empty(character(0))
 #' is.empty(list())
 #' is.empty(integer(0))

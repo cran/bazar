@@ -1,3 +1,9 @@
+# bazar 1.0.11 (2019-03-15)
+
+* 'get_all_pkgs()' no longer explores the whole list of installed packages by default. 
+The default is now to search within attached packages only. 
+
+
 # bazar 1.0.10 (2018-10-03)
 
 * Add 'as.na()' S3 method, which transforms an object into an 'NA' object of 

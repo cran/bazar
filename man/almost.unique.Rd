@@ -7,7 +7,8 @@
 \usage{
 almost.unique(x, ...)
 
-\method{almost.unique}{default}(x, tolerance = sqrt(.Machine$double.eps), ...)
+\method{almost.unique}{default}(x, tolerance = sqrt(.Machine$double.eps),
+  ...)
 }
 \arguments{
 \item{x}{numeric. The vector of numeric values at stake.}

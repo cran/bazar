@@ -1,8 +1,8 @@
 Package: bazar
 Type: Package
 Title: Miscellaneous Basic Functions
-Version: 1.0.10
-Date: 2018-10-03
+Version: 1.0.11
+Date: 2019-03-15
 Authors@R: person("Paul", "Poncet", , "paulponcet@yahoo.fr", role = c("aut", "cre"))
 Description: A collection of miscellaneous functions for 
     copying objects to the clipboard ('Copy');
@@ -27,10 +27,10 @@ Imports: kimisc, stats, tools, utils
 Suggests: knitr, testthat
 URL: https://github.com/paulponcet/bazar
 BugReports: https://github.com/paulponcet/bazar/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 NeedsCompilation: no
-Packaged: 2018-10-06 21:55:48 UTC; YL1101
+Packaged: 2019-03-15 23:00:08 UTC; YL1101
 Author: Paul Poncet [aut, cre]
 Maintainer: Paul Poncet <paulponcet@yahoo.fr>
 Repository: CRAN
-Date/Publication: 2018-10-06 22:30:03 UTC
+Date/Publication: 2019-03-15 23:33:24 UTC

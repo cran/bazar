@@ -5,6 +5,7 @@
 \alias{as.fun.default}
 \alias{as.fun.character}
 \alias{as.fun.name}
+\alias{as.fun.call}
 \alias{as.fun.numeric}
 \alias{as.fun.logical}
 \alias{as.fun.factor}
@@ -21,6 +22,8 @@ as.fun(x, ...)
 \method{as.fun}{character}(x, ...)
 
 \method{as.fun}{name}(x, ...)
+
+\method{as.fun}{call}(x, ...)
 
 \method{as.fun}{numeric}(x, ...)
 

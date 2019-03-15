@@ -72,12 +72,16 @@ as.fun.character <-
 function(x,
          ...)
 {
-  if (grepl("::", x)) {
+  if (grepl(":::", x)) {
+    ns <- strsplit(x, ":::")[[1L]]
+    x <- ns[2L]
+    w <- 1L
+  } else if (grepl("::", x)) {
     ns <- strsplit(x, "::")[[1L]]
     x <- ns[2L]
     w <- 1L
   } else {
-    ns <- unlist(sessionPackages(), use.names = FALSE)
+    ns <- .packages(all.available = FALSE) #unlist(sessionPackages(), use.names = FALSE)
     w <- which(vapply(ns, 
                       FUN = function(n) { x %in% getNamespaceExports(n) }, 
                       FUN.VALUE = logical(1L)))
@@ -100,6 +104,17 @@ function(x,
          ...)
 {
   as.fun(as.character(x), ...)
+}
+
+
+#' @export
+#' @rdname as.fun
+#' 
+as.fun.call <- 
+function(x, 
+         ...)
+{
+  as.fun(as.character(x[[1L]]), ...)
 }
 
 
